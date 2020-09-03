@@ -21,19 +21,23 @@ body {
     .header__inner {
     display: flex;
     align-items: center;
-    
-    
+    justify-content: space-around;
+    margin: 0 20px;
+    }
+
+    .header__logo{
+      width: 272px;
     }
     
     
     /*Nav*/
   
-    .nav{
-       
+    .header__nav{
+     
         
     }
   
-    .nav__link{
+    .header__nav__link{
     text-transform: uppercase;
     text-decoration: none;
     font-style: normal;
@@ -41,9 +45,19 @@ body {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    margin: 0 30px;
 
 
     color: #737275;
+    }
+
+    .header__nav__link.pointer:focus:after{
+      background-image: url("..images/generalpage/Polygon2.png");
+    }
+
+    .header__nav__link.pointer:focus{
+      vertical-align: middle;
+      color: #FFA234;
     }
 
     .header__input{
@@ -60,15 +74,38 @@ body {
         width: 24px;
         top: 12px;
     }
-.header__input--search{
-border: none;
-padding: 15px;
-font-style: italic;
-font-weight: normal;
-font-size: 13px;
-line-height: 16px;
-text-transform: uppercase;
-width: 300px;
+    .header__input--search{
+        border: none;
+        padding: 15px;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-transform: uppercase;
+        width: 375px;
+    }
+    
+    .header__button__exit{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 15px;
+      width: 179px;
+
+      color: #FFFFFF;
+      background: #2A5FC7;
+      border-radius: 5px;
+      border: none;
+    }
+
+/* Intro */
+
+.intro{
+  background: url("../images/generalpage/girl.png") center no-repeat;
+  background-size: cover;
 }
-       
  
