@@ -96,7 +96,12 @@ body {
         font-size: 13px;
         line-height: 16px;
         text-transform: uppercase;
-        width: 375px;
+        width: 331px;
+        border-radius: 5px;
+    }
+
+    .header__button{
+      margin-left: 20px;
     }
     
     .header__button__exit{
@@ -133,8 +138,9 @@ body {
     }
     .intro__inner__container{
       width: 570px;
-      margin-top: 150px;
-      margin-right: 130px;
+      margin-top: 155px;
+      margin-right: 140px;
+      
 }
 
     .intro__inner__p{
@@ -143,7 +149,7 @@ body {
       font-weight: bold;
       font-size: 31px;
       line-height: 140%;
-      /* or 43px */
+      padding-bottom: 7px;
 
 
     color: #414141;
@@ -155,12 +161,13 @@ body {
       }
     .intro__inner__logo{
     position: relative;
+    padding-bottom: 7px;
     }
 
     .intro__inner__lianer{
       position: absolute;
-      width: 229.97px;
-      height: 7.7px;
+      width: 245px;
+      height: 8px;
       left: 0;
       top: 38px;
       background: rgba(255, 162, 52, 0.5);
@@ -197,6 +204,7 @@ body {
       font-size: 20px;
       line-height: 24px;
       /* text-align: center; */
+      margin-bottom: 34px;
 
       color: #444247;
     }
@@ -207,8 +215,8 @@ body {
     }
 
     .intro__button__section1{
-      width: 270.49px;
-      height: 53.89px;
+      width: 270px;
+      height: 54px;
       background: #FFA234;
       border-radius: 5px;
       border: none;
@@ -225,8 +233,8 @@ body {
     }
 
     .intro__button__section2{
-      width: 270.49px;
-      height: 53.89px;
+      width: 270px;
+      height: 54px;
       background: #2A5FC7;
       border-radius: 5px;
       border: none;
@@ -246,6 +254,7 @@ body {
     .slider{
       display: flex;
       justify-content: space-between;
-      margin-top: 50px;
+      margin-top: 60px;
+      width: 740px;
     }
     
