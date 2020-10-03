@@ -1,0 +1,35 @@
+.main {
+    width: 1138px;
+    height: 515.71px;
+    display: flex;
+    
+    justify-content: flex-end;
+}
+.school_description {
+    width: 222px;
+    height: 508px;
+    font-family: 'Montserrat', sans-serif;
+}
+.up {
+    color: #2A5FC7;
+    }
+.up_2 {
+    color: #444247;
+    }   
+.colums {
+    width: 449px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.main-foto{
+    width: 597px;
+    height: 508px;
+   /* background-image: no-repeat center url('assets/images/school/petrikivka.png');
+    background-size: cover;*/
+    border-radius: 5px #13ACFA solid;
+}
