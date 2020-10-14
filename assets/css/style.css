@@ -522,3 +522,254 @@ body {
       margin: auto;
 
     }
+
+
+    /* gallery */
+
+    .p__gallery{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 140%;
+      /* or 42px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #2A5FC7;
+    }
+
+    .gallery__foto{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      
+    }
+
+    .gallery__foto__img__1{
+      border-radius: 25px;
+      position: relative;
+      left: 52px;
+      top: 54px;
+      z-index: 1;
+    }
+
+    .gallery__foto__img__2{
+      border-radius: 25px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .gallery__foto__img__3{
+      border-radius: 25px;
+      position: relative;
+      right: 52px;
+      top: 54px;
+      z-index: 1;
+    }
+
+    .gallery__arrow__main{
+      position: relative;
+    }
+
+    .gallery__arrow__left{
+      position: absolute;
+      top: 175px;
+      left: 85px;
+
+    }
+
+    .gallery__arrow__right{
+      position: absolute;
+      top: 175px;
+      right: 85px;
+    }
+
+    .gallery__line{
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+    }
+    .gallery__line1{
+      border-top: 1px solid #000000;
+      width: 100%;
+      margin-top: 60px;
+      
+    }
+
+    .gallery__line2{
+      border-top: 5px solid #2A5FC7;
+      width: 20%;
+      position: absolute;
+      left: 29%;
+      top: -2px;
+    }
+
+    .number__first{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      /* identical to box height, or 34px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFA234;
+
+    }
+    .number__all{
+      font-family: Montserrat;
+      font-style: normal;
+      font-size: 20px;
+      color: black;
+    }
+
+    /* event */
+
+    .event__main{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1166px;
+      margin: 0 auto;
+    
+    }
+
+    .event__name{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 140%;
+      /* or 42px */
+
+      text-transform: uppercase;
+
+      color: #2A5FC7;
+    }
+    .event__pages{
+      display: flex;
+          
+      align-items: center;
+}
+    .event__number{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      /* identical to box height, or 34px */
+
+      text-transform: uppercase;
+
+      color: #FFA234;
+
+    }
+
+    .event__number__all{
+      font-family: Montserrat;
+      font-style: normal;
+      font-size: 20px;
+      color: black;
+    }
+
+    .event__margin{
+      margin: 0 25px;
+    }
+
+    .event__block{
+      display: flex;
+      justify-content: space-between;
+      width: 1166px;
+      margin: 0 auto;
+      margin-top: 30px;
+      position: relative;
+
+    }
+    .event__img{
+      border-radius: 25px;
+      width: 100%;
+      height: 200px;
+
+    }
+    .event__block__container{
+      max-width: 32%;
+    }
+
+    .event__block__img{
+      position: relative;
+    }
+    .event__img__data{
+      width: 132px;
+      height: 46px;
+      background: #FFA234;
+      border-radius: 0px 0px 24px 0px;
+      position: absolute;
+      bottom: 4px;
+      right: 0px;
+      
+    }
+    .event__img__data1{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 24px;
+      /* or 133% */
+
+      color: #FFFFFF;
+      margin-top: 12px;
+      text-align: center;
+      
+    }
+    .event__img__month{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      /* or 133% */
+      color: #FFFFFF;
+    }
+
+    .event__name__course{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 140%;
+      /* or 28px */
+
+      text-align: center;
+
+      color: #2A5FC7;
+    }
+
+    .event__name__city{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+
+
+      color: #0F295B;
+      text-align: center;
+    }
+
+    .event__name__description{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+
+      text-align: center;
+
+      color: #444247;
+    }
