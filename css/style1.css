@@ -2,29 +2,60 @@
     width: 1138px;
     height: 515.71px;
     display: flex;
-    
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 62px;
 }
 .school_description {
     width: 222px;
     height: 508px;
+    font-size: 14px;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+
 .up {
-    color: #2A5FC7;
+    color: #2A5FC7!important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    width: 483px;
+    height: 54px;
+    
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
     }
+.up_1 {
+    margin-top: 21px;
+    color: #2A5FC7;
+    text-transform: uppercase;
+    }
+
 .up_2 {
+    margin-top: 21px;
     color: #444247;
+    
+    width: 449px;
+    height: 39px;
     }   
 .colums {
-    width: 449px;
+    width: 550px;
     height: 34px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 14px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+}
+.text {
+    color: #444247;
+    width: 483px;
+    height: 220px;
+    line-height: 24px;
 }
 .main-foto{
     width: 597px;
@@ -33,3 +64,84 @@
     background-size: cover;*/
     border-radius: 5px #13ACFA solid;
 }
+.link_to_next {
+    display: flex;
+
+}
+.icon {
+background: rgba(42, 95, 199, 0.17);
+border-radius: 5px;
+transform: rotate(-31.83deg);
+width: 25px;
+height: 25px;
+margin-top: 24px;
+ margin-left: 20px;
+}
+.vector {
+    transform: rotate(31.83deg); 
+    padding-left: 5px; 
+}
+/*--2block--*/
+.wrapper {
+    margin: 20px;
+    width: 1079px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    height: 750px;
+
+}
+.title_1 {
+    margin-top: 20px;
+height: 38px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+text-transform: uppercase;
+color: #3F64AD;
+}
+.title_1:hover {
+text-decoration: underline solid 2px #3F64AD;;
+}
+.title_2 {
+    margin-top: 20px;
+width: 162px;
+height: 31px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 140%;
+text-transform: uppercase;
+color: #2A5FC7;
+}
+.title_3 {
+    width: 266px;
+height: 18px;
+padding: 0 auto;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #3F64AD;
+}
+.workshop {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+
+}
+.class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
