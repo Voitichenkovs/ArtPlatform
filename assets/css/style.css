@@ -588,7 +588,7 @@ body {
     }
 
     .gallery__line{
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
       position: relative;
     }
@@ -923,3 +923,38 @@ body {
       position: absolute;
       bottom: -8px;
     }
+
+    /*video*/
+
+    .video__name{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 31px;
+      line-height: 140%;
+      /* or 43px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #2A5FC7;
+      margin-top: 80px;
+
+    }
+    .video__container{
+      width: 1274px;
+      display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+    .video__iframe{
+      width: 631px;
+      height: 441px;
+
+      border-radius: 25px;
+    }
+
+    
