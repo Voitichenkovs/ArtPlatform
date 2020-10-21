@@ -957,4 +957,176 @@ body {
       border-radius: 25px;
     }
 
+
+    /* about us */
     
+    .about__us__container{
+      width: 1207px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-top: 100px;
+    }
+
+    .about__us__name{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 140%;
+      /* or 42px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #2A5FC7;
+      width: 282px;;
+    }
+
+    .about__us__text{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 25px;
+      /* or 179% */
+
+
+      color: #444247;
+      width: 848px;
+
+    }
+    .about__us__two__button{
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .about__us__button1{
+      width: 174px;
+      height: 48px;
+      background: #FFA234;
+      border-radius: 5px;
+      border: none;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+    }
+
+    .about__us__button{
+      display: flex;
+      height: 35px;
+      padding-left: 135px;
+    }
+
+    .about__us__button__a{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+
+      color: #2A5FC7;
+      text-decoration: none;
+    
+      margin: 10px;
+    }
+
+
+    /* .subscription */
+
+    .subscription{
+      background-color:  #FFA234;
+      height: 242px;
+      margin-top: 90px;
+    }
+
+    .subscription__news{
+      position: relative;
+      display: flex;
+      width: 86%;
+      justify-items: flex-end;
+      margin: 0 auto;
+      
+    }
+
+    .subscription__news__text{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+
+      color: #0A074A;
+
+      padding: 30px 160px;
+    }
+
+    .subscription__news__input{
+      width: 885px;
+      height: 78px;
+      background: #FFFFFF;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+      border-radius: 5px;
+      border: none;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #444247;
+    }
+
+    .subscription__logo{
+      position: absolute;
+      top: 33px;
+      left: 50px;
+
+    }
+
+    .subscription__button{
+      width: 275px;
+      height: 78px;
+
+      background: #2A5FC7;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+      border-radius: 5px;
+      border: none;
+      margin-left: 65px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+    }
+
+    .subscription__plane{
+      position: relative;
+    }
+
+    .subscription__plane__img{
+      position: absolute;
+      top: -17px;
+      right: -145px;
+
+      opacity: 0.5;
+    }
