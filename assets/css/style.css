@@ -1072,7 +1072,7 @@ body {
     }
 
     .subscription__news__input{
-      width: 885px;
+      width: 717px;
       height: 78px;
       background: #FFFFFF;
       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
@@ -1086,15 +1086,16 @@ body {
       line-height: 17px;
       /* identical to box height */
 
-      text-align: center;
+      text-align: left;
+      padding-left: 165px;
 
       color: #444247;
     }
 
     .subscription__logo{
       position: absolute;
-      top: 33px;
-      left: 50px;
+      top: 27px;
+      left: 99px;
 
     }
 
